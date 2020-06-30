@@ -1,63 +1,89 @@
-
+/*
+Author: Kody L Robinson
+Date: 30 June 2020
+Style settings for all headers 1 - 3
+*/
+h1{
+  text-align:center;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #fff;
+}
+h2{
+  text-align:center;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #fff;
+}
+h3{
+  text-align:center;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #fff;
+}
+/*Sets the background of the body element. Does not include entire webpage*/
 body {
   background-color:indianred;
 }
+/*Style settings for header element. All content is boxed*/
 header {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border:1px solid #fff; 
-  padding:20px;
+  padding:5px;
   margin:auto;
   background-color:rgb(192, 192, 192,0.5);
   width:460px;
 }
+/*Class used to center any text*/
 .center-text {
   text-align:center;
 }
+/*Class used to apply a circle border to all images*/
 .circle-image{
   border-radius:50%;
   display:block;
   margin:auto;
 }
+/*Class used to center images akin to text*/
 .center-image{
   display:block;
   margin:auto;
   padding:10px;
 }
+/*Style settings for both unordered and ordered lists*/
 ul {
   text-align:center;
   list-style:inside;
 }
 ol {
   text-align:center;
-  list-style:inside;
+  display:table;
 }
+/*Style settings for horizontal rulers, turns them into one single block rotated 45 degrees*/
 hr{
   width:15px;
   height:15px;
   border:none;
   background:black;
   color:black;
-  margin-top:auto;
-  margin-bottom:auto;
   transform:rotate(45deg);
 }
+/*Basic style settings inside main element that all elements will inherit*/
 main{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color:brown;
 }
-main > article {
-  text-align:center;
-  font-size: 36px;
-  padding:10px;
-  text-shadow: 1px 1px 2px #fff;
-}
-main > p,li {
+/*Style settings for both paragraph and list item elements*/
+p,li {
   font-family:'Arial Narrow','Franklin Gothic Medium', Arial, sans-serif;
   text-align:center;
   text-shadow: 1px 1px 5px #c0c0c0;
   margin-left:100px;
   margin-right:100px;
 }
+/*Pseudo-classes for link(a) elements*/
+a:link{color:cyan}
+a:visited{color:chartreuse}
+a:hover{color:blue}
+a:active{color:navy}
+/*Wrapper class to draw content correctly on different devices*/ 
 .wrapper{
   content:"";
   display: table;
