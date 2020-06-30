@@ -1,57 +1,73 @@
+<!--
+Author: Kody L Robinson
+Date: 30 June 2020  
+-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <!--Head element. Includes css declartion-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Kody Robinson's Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
-  <header>
-    <div>
-    <img src="images/logo.jpg" class="circle-image" alt="Logo photo" style="width:130px;,height:130px;"></img>
-    <p class="center-text">Computer Enthusiast</p>
-    </div>
-    
-    
-  </header>
+  <!--Beginning of body element, beginning of body background color-->
   <body>
+  <!--Beginning of header element. Although in the body, the header does not include the body's background color, therefor it can have its own background color-->
+  <header>
+    <!--Divider container only used to seperate content. Can be used to apply more settings to content within container-->
+    <div>
+    <!--Tag for image that appears in the header. Resizes and applies circle-image class-->
+    <img src="images/logo.jpg" class="circle-image" alt="Logo photo" style="width:130px;,height:130px;">
+    <h3 class="center-text">Computer Enthusiast</h3>
+    </div> 
+  </header>
+    <!--Beginning of main element. Mainly used to divide and organize content on webpage-->
     <main>
-      <img src="images/myself.JPG" alt="Myself" class="center-image" style="width:300px;,height:300px;"></img>
+      <!--Tag for image that appears first in the main element, immediately after the header element-->
+      <img src="images/myself.JPG" alt="Myself" class="center-image" style="width:300px;,height:300px;">
       <article>
-        Hi There! I'm Kody Robinson
+        <h1>Hi There! I'm Kody Robinson</h1>
+        <h2>Who am I?</h2>
+        <p>
+          I am a computer enthusiast living in Washington, USA.
+          Although a computer enthusiast, I have experience in all sorts of things that include but not limited to:
+        </p>
+        <ul>
+          <li>Music Theory</li>
+          <li>Algorithms and pattern recognition</li>
+          <li>Photography</li>
+        </ul>
+        <p>
+          Please, have a look at my website!
+        </p>
       </article>
-      <p>
-        I am a computer enthusiast living in Washington, USA.
-        As an enthusiast, I am interested in:
-      </p>
-      <ul>
-        <li>Algorithms and pattern recognition</li>
-        <li>Optimizations</li>
-        <li>Hardware design and implementations</li>
-      </ul>
-      <p>
-        Please, have a look at my website!
-      </p>
       <hr>
-      <article>About Kody</article>
-      <p>
-        As far as I can remember, I have always used a computer to my benefit. After taking multiple classes centered around computers, I began to realize that I had a passion for computers. 
-      </p>
-      <p>
-        As a student at Thinkful, I've begun my journey to becoming a software developer and couldn't be happier!
-      </p>
-      <p>
-        If you're looking to hire a budding new developer (or are looking for a hackathon partner,) please reach out! I am excited to work with other developers of any level to create some great software.
-      </p>
+      <article>
+        <h1>About Kody</h1>
+        <h3>What do you do?</h3>
+        <p>
+          Some would describe me as a person with many interests; I would describe myself as someone who wants to understand. When I am not typing away on a keyboard, I try to immerse myself into either the world around me or one of the many interests I have. Some of them include cooking, typography, philosophy and agriculture.
+        </p>
+        <p>
+          As a student at Thinkful, I've begun my journey to becoming a software developer and couldn't be happier!
+        </p>
+        
+        <p>
+          If you're looking to hire a budding new developer (or are looking for a hackathon partner,) please reach out! I am excited to work with other developers of any level to create some great software.
+        </p>
+      </article>
       <hr>
-      <article> Contact Kody </article>
-      <p>
-        As a a lifetime student, I look forward to hearing from developers at any level. Feel free to contact me via the following methods!
-      </p>
-      <ol>
-        <li><a href="https://www.linkedin.com/in/kody-robinson-a05394b9/">LinkedIn</a></li>
-        <li><a href="https://github.com/krobinson96">GitHub</a></li>
+      <article>
+        <h1>Contact Kody</h1> 
+        <p>
+          As a a lifetime student, I look forward to hearing from developers at any level. Feel free to contact me via the following methods!
+        </p>
+        <ol>
+          <li><a target="_blank" href="https://www.linkedin.com/in/kody-robinson-a05394b9/">LinkedIn</a></li>
+          <li><a href="https://github.com/krobinson96">GitHub</a></li>
       </ol>
+      </article>
     </main>
     <script src="script.js"></script>
   </body>
