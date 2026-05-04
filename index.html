@@ -6,9 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Kody's Emporium</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -38,32 +36,25 @@
         <!-- Masthead-->
         <header class="masthead bg-primary text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
                 <img src="assets/img/portfolio/IMG_0190.JPG"/>
-                <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Welcome to my Portfolio!</h1>
-                <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-bacon"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Masthead Subheading-->
                 <p class="masthead-subheading font-weight-light mb-0">I am Kody, a self-taught software developer based in Los Angeles. As an avid gamer from youth, creating computer systems and programming them for practical purposes has been a natural interest of mine. I also create instrumental music solely using softwares and some pieces of physical hardware in my free time.  </p>
             </div>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio bg-background" id="portfolio">
             <div class="container">
-                <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-bacon"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -101,29 +92,24 @@
                             <img class="img-fluid" src="assets/img/portfolio/downloader_cropped.jpg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 5-->
                 </div>
             </div>
         </section>
         <!-- About Section-->
         <section class="page-section bg-primary mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase">About</h2>
-                <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-bacon"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead">Being born in 1996, some of my first memories are of playing video games on an original PlayStation and typing on an IBM PC shared between my family. After taking specialized college prepatory classes at a magnet high school, I decided to pursue a Bachelor's of Science in Computer Engineering at the University of West Florida. After completing roughly 90 credit hours worth of coursework, I moved to the Evergreen state of Washington in 2016, completing a few credit hours at various local colleges. It was at this time I began writing some of the softwares showcased on my portfolio. While attempting to finish a degree, I began gaining professional experience as a contractor at Boeing as a Field IT Technician. Here I wrote a few proprietary softwares that helped my daily tasks become a little more efficient. </p></div>
                     <img class="h-25 w-25" src="assets/img/portfolio/image2.jpeg" alt="..."/>
                     <div class="col-lg-4 ms-auto"><p class="lead">After the contract was completed, I began working as an Electrical Assembler before I was laid off due to the COVID-19 Pandemic and moved to Los Angeles in July of 2020. After some deep thought and careful consideration I have decided to focus more on honing the skills and talents I have gained throughh education and apply them in the real world. Aside from writing softwares, I also create instrumental music through FL Studio and at times, with the help of an AKAI MIDI controller. My cat, Bonkers, is a great source of inspiration for both programming a computer and programming a MPC machine. The softwares that are on display on this website represent the journey I am taking through software engineering, while hoping to capture the process and path I took.</p></div>
 
                 </div>
-                <!-- About Section Button-->
                 <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="https://github.com/krobinson96">
                         <i class="fa-brands fa-github" aria-hidden="true"></i>
@@ -135,114 +121,46 @@
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
-                <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-bacon"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
+                        <form id="contactForm" action="https://formsubmit.co/kodyrobinson96@gmail.com" method="POST">
                             <div class="form-floating mb-3">
-                                <input class="form-control bg-secondary" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control bg-secondary" id="name" name="name" type="text" placeholder="Enter your name..." required/>
                                 <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
-                            <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control bg-secondary" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control bg-secondary" id="email" type="email" name="email" placeholder="name@example.com" required />
                                 <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control bg-secondary" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control bg-secondary" id="phone" type="tel" placeholder="(123) 456-7890" name="phone" />
                                 <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
-                            <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control bg-secondary" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control bg-secondary" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" name="message"></textarea>
                                 <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-    <!--
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    Footer Location
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    Footer Social Icons
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    Footer About Text
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    -->
-        <!-- Copyright Section-->
         <div class="copyright py-4 text-center">
             <div class="container"><small>Copyright &copy; Kody L. Robinson 2026</small></div>
         </div>
-        <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
